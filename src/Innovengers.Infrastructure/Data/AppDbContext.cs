@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using Innovengers.Core.Entities;
+using Innovengers.Domain.Entities;
 
 namespace Innovengers.Infrastructure.Data
 {

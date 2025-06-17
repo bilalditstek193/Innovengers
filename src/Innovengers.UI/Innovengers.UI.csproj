@@ -3,6 +3,8 @@
   <ItemGroup>
     <ProjectReference Include="..\Innovengers.Services\Innovengers.Services.csproj" />
     <ProjectReference Include="..\Innovengers.Core\Innovengers.Core.csproj" />
+    <ProjectReference Include="..\Innovengers.Application\Innovengers.Application.csproj" />
+    <ProjectReference Include="..\Innovengers.Infrastructure\Innovengers.Infrastructure.csproj" />
   </ItemGroup>
 
   <ItemGroup>

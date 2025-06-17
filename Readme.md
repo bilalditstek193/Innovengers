@@ -1,32 +1,16 @@
 # Folder Structure
 Innovengers/
-├── Innovengers.sln                   # Solution file
-├── Innovengers.Core/                 # Domain layer
-│   ├── Innovengers.Core.csproj
-│   └── Entities/                    # Your domain entities/models
-│       └── User.cs
-│   └── Interfaces/                  # Repository or service interfaces
-│       └── IUserRepository.cs
-├── Innovengers.Infrastructure/     # Data access layer
-│   ├── Innovengers.Infrastructure.csproj
-│   ├── Data/
-│   │   └── AppDbContext.cs         # EF Core DbContext
-│   ├── Repositories/               # EF Core repository implementations
-│       └── UserRepository.cs
-│   └── Migrations/                 # EF migrations (auto-created)
-├── Innovengers.Services/           # Business logic layer
-│   ├── Innovengers.Services.csproj
-│   ├── Services/
-│       └── UserService.cs          # Business logic classes
-│   └── Interfaces/
-│       └── IUserService.cs         # Service interfaces
-└── Innovengers.UI/                  # Presentation layer (Blazor Server UI)
-    ├── Innovengers.UI.csproj
-    ├── Pages/
-    ├── Shared/
-    ├── wwwroot/
-    ├── Program.cs                  # App startup & DI configuration
-    └── appsettings.json            # Configurations (e.g. connection strings)
+├── src/
+│   ├── Innovengers.Domain/           # Domain entities & interfaces
+│   ├── Innovengers.Application/      # CQRS, business logic, MediatR handlers
+│   ├── Innovengers.Infrastructure/   # EF Core, DbContext, configurations
+│   └── Innovengers.UI/               # Blazor Server UI
+├── tests/
+│   └── Innovengers.Tests/            # Unit tests
+├── Innovengers.sln
+├── .gitignore
+├── README.md
+
 
 
 
