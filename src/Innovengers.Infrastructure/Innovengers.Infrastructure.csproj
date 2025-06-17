@@ -1,7 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\Innovengers.Core\Innovengers.Core.csproj" />
     <ProjectReference Include="..\Innovengers.Domain\Innovengers.Domain.csproj" />
     <ProjectReference Include="..\Innovengers.Application\Innovengers.Application.csproj" />
   </ItemGroup>
